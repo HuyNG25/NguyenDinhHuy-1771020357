@@ -17,7 +17,7 @@
     + Thông tin cá nhân
 # Giao diện:
 <p align ="center">
-  <img src="LoginBackEnd.jpg"  width="450" />
+  <img src="abc.jpg"  width="450" />
 </p>
   # Giao diện Quản trị viên:
   <p align ="center">
