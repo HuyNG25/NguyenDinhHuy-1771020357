@@ -1,0 +1,33 @@
+﻿@model List<NguyenDinhHuy.Models.Notification>
+@{
+    ViewData["Title"] = "Thông báo từ quản trị viên";
+}
+
+<h2 class="text-center mt-4">📢 Thông báo từ quản trị viên</h2>
+
+@if (Model != null && Model.Count > 0)
+{
+    <table class="table table-bordered table-striped mt-4">
+        <thead class="thead-dark">
+            <tr>
+                <th>Nội dung</th>
+                <th>Ngày gửi</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Message</td>
+                    <td>@item.SentDate?.ToString("dd/MM/yyyy HH:mm")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="alert alert-info mt-4 text-center">
+        Không có thông báo nào.
+    </div>
+}

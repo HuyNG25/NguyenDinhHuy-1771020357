@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "Đăng nhập";
+}
+
+<table width="100%" height="100%">
+    <tr>
+        <td align="center" valign="middle">
+            <table border="1" cellpadding="20" cellspacing="0" style="border-collapse: collapse; border-radius: 10px;">
+                <tr>
+                    <td>
+                        <h2 align="center">🔐 Đăng nhập hệ thống</h2>
+
+                        <form method="post">
+                            <table>
+                                <tr>
+                                    <td><label>Email:</label></td>
+                                    <td><input type="email" name="email" required placeholder="Nhập email" /></td>
+                                </tr>
+                                <tr><td colspan="2" height="10"></td></tr>
+                                <tr>
+                                    <td><label>Mật khẩu:</label></td>
+                                    <td><input type="password" name="password" required placeholder="Nhập mật khẩu" /></td>
+                                </tr>
+                                <tr><td colspan="2" height="15"></td></tr>
+                                <tr>
+                                    <td colspan="2" align="center">
+                                        <input type="submit" value="Đăng nhập" />
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+
+                        @if (ViewBag.Error != null)
+                        {
+                            <p align="center" style="color:red">@ViewBag.Error</p>
+                        }
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
