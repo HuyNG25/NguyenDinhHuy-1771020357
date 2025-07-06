@@ -1,2 +1,34 @@
 # NguyenDinhHuy-1771020357
-Hệ thống theo dõi đơn xin nghỉ phép trong công ty
+# Hệ thống theo dõi đơn xin nghỉ phép trong công ty
+# Chức năng:
+    + Đăng nhập
+  # Quản trị viên:
+    + Danh sách đơn cần duyệt
+    + Quản lý tài khoản nhân viên
+    + Số dư ngày nghỉ phép
+    + Đăng xuất
+  # Nhân viên (người dùng):
+    + Tạo đơn xin nghỉ phép
+    + Lịch sử nghỉ phép
+    + Thông báo từ quản trị viên
+    + Thông tin cá nhân
+# Giao diện:
+<p align ="center">
+  <img src="LoginBackEnd.jpg"  width="450" />
+</p>
+  # Giao diện Quản trị viên:
+  <p align ="center">
+    <img src="MenuAdmin.jpg"  width="450" />
+    <img src="ListRequest.jpg"  width="450" />
+    <img src="ADMIN.jpg"  width="450" />
+    <img src="DuSafe.jpg"  width="450" />
+  </p>
+  # Giao diện nhân viên:
+  <p align ="center">
+    <img src="MenuMember.jpg"  width="450" />
+    <img src="CreateRequest.jpg"  width="450" />
+    <img src="LeaveHistory.jpg"  width="450" />
+    <img src="TingTing.jpg"  width="450" />
+    <img src="Me.jpg"  width="450" />
+</p>
+
