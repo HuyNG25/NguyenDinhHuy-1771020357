@@ -2,6 +2,7 @@
 # Hệ thống theo dõi đơn xin nghỉ phép trong công ty
 # Chức năng:
     + Đăng nhập
+    + Theo dõi các đơn xin nghỉ trong công ty
     + Tạo đơn xin nghỉ và gửi cho admin kiểm duyệt
     + Lưu trữ dữ liệu về các đơn xin nghỉ đã duyệt thành công
   # Quản trị viên:
